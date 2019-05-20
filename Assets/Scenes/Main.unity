@@ -1471,7 +1471,7 @@ MonoBehaviour:
   MeshWidth: 256
   MeshHeight: 192
   depthScale: 0.05
-  gradedLevels: 
+  gradedLevels: bc02520384039803a2034c04
   gradedLevelColors:
   - serializedVersion: 2
     rgba: 4294956544

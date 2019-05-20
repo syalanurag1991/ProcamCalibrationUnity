@@ -80,16 +80,6 @@ public class UndistortDisplay : MonoBehaviour
 		MeshWidth = projectorWidth / downsampleSize;
 		MeshHeight = projectorHeight / downsampleSize;
 		
-		gradedLevels = new ushort[6];
-		gradedLevels[0] = 1000;
-		gradedLevels[1] = 1500;
-		gradedLevels[2] = 2000;
-		gradedLevels[3] = 2500;
-		gradedLevels[4] = 3000;
-		gradedLevels[5] = 3500;
-
-		//gradedLevelColors = new Color32[5];
-		
 		if (displayPointCloud)
 		{
 			CreateMeshesForPointCloud();
